@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+       
+        .header{
+            background-color: azure;
+            text-align: center;
+        }
+        .row{
+            background-color: antiquewhite;
+            display: flex;
+        
+           
+        }
+        .column{
+            flex-direction: column;
+            height:300px;
+            width:200px;
+            background-color: aqua;
+            border:1px solid red;
+        }
+        .footer{
+            background-color: aquamarine;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="header">
+        <h1>header</h1>
+    </div>
+    <div class="row">
+        <p class="column">column</p>
+        <p class="column">column</p>
+        <p class="column">column</p>
+    </div>
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
 </body>
 </html>
